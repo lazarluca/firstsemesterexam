@@ -1,0 +1,55 @@
+body
+{
+   background-image: url("images/extrabg.png")
+   background-size: 100%;
+   background-position: center;
+    background-repeat: no-repeat; 
+  
+}
+
+
+.a
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 2em;
+  width: 40%;
+}
+.b
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 12em;
+  width: 40%;
+}
+.c
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 2em;
+  width: 50%;
+}
+@media screen and (min-width:750px)
+   { 
+    .b
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+    margin-top: 10em;
+}
+.a
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 2em;
+  width: 20%;
+}
+.c
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+    margin-top: 2em;
+}
+}

@@ -1,0 +1,57 @@
+body
+{
+   background-image: url(images/bg.png);
+   background-size: 100%;
+   background-position: center;
+    background-repeat: no-repeat; 
+  
+}
+
+
+.logo
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+    margin-top: 1em;
+}
+
+.a
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 2em;
+  width: 60%;
+}
+
+.c
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 2em;
+  width: 60%;
+}
+
+@media screen and (min-width:750px)
+   { 
+    .logo
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.a
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1em;
+  width: 20%;
+}
+.c
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+    margin-top: 2em;
+}
+}

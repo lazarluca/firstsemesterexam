@@ -1,0 +1,149 @@
+body
+{
+   background-image: url(images/bg.png);
+  background-size: 100%;
+   background-position: center;
+    background-repeat: no-repeat; 
+  
+}
+
+.a
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+.b
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1em;
+  width: 80%;
+}
+.d
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 20%;
+}
+.l
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 80%;
+}
+.n
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 80%;
+}
+
+
+
+.c
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 90%;
+}
+.f
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 90%;
+}
+
+.e
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 90%;
+}
+
+.g
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 90%;
+}
+
+
+}
+@media screen and (min-width:750px)
+   { 
+       .a
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1em;
+    width: 50%;}
+       
+       .c
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    margin-top: 2em;
+       }
+       
+.b
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1em;
+  width: 30%;
+}
+       
+.d
+{display: block;
+
+  width: 10%;
+    
+}
+
+              .g
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 50%;
+}
+                     
+       .n
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 50%;
+                  
+       }
+       
+       
+       .l
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 1em;
+  width: 50%;
+}
+       
+       
+.e
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+    margin-top: 2em;
+}
+}
+              

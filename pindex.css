@@ -1,0 +1,220 @@
+.bg {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+   max-width:90%;
+    height: 35vw;
+    background-image: url(img/background2.png);
+    animation: movebg 30s linear infinite;
+    animation-play-state: paused;
+    margin:auto;
+    border: solid black 10px;
+
+}
+.mbg {
+    animation: movebg 30s linear infinite;
+    animation-play-state: running;
+}
+
+@keyframes movebg {
+    to {
+        background-position: -1200px;
+    }
+}
+
+.idle {
+    background-image: url(img/pet2.png);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    bottom: -1em;
+    right: 0;
+    left: 0;
+}
+
+@keyframes idle {
+    to {
+        background-position: -100px;
+    }
+}
+
+
+.petwalk {
+    background-image: url(img/petwalk.png);
+    animation: petwalk 1s steps(9) infinite;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    left: 0;
+}
+
+@keyframes petwalk {
+    to {
+        background-position: -900px;
+    }
+}
+
+.petjump {
+    background-image: url(img/petjump.png);
+    height: 120px;
+    width: 100px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: petjump 1s steps(9) infinite;
+}
+@keyframes petjump {
+    to{
+         background-position: -900px;
+    }
+}
+
+.peteyes {
+    background-image: url(img/peteyes.png);
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: peteyes 0.5s steps(6) infinite;
+}
+@keyframes peteyes {
+    to{
+         background-position: -600px;
+    }
+}
+
+.pettail {
+    background-image: url(img/pettail.png);
+    height: 100px;
+    width: 120px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: pettail 1s steps(8) infinite;
+}
+@keyframes pettail {
+    to{
+         background-position: -960px;
+    }
+
+    }
+.pettounge {
+    background-image: url(img/pettounge.png);
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: pettounge 1s steps(9) infinite;
+}
+@keyframes pettounge {
+    to{
+         background-position: -900px;
+    }}
+
+.petfart {
+    background-image: url(img/petfart.png);
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: petfart 1s steps(9) infinite;
+}
+@keyframes petfart {
+    to{
+         background-position: -900px;
+    }
+}
+.petfly {
+    background-image: url(img/petfly.png);
+    height: 120px;
+    width: 120px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: petfly 1s steps(6) infinite;
+}
+@keyframes petfly {
+    to{
+         background-position: 720px;
+    }
+}
+.petcolor {
+    background-image: url(img/petcolor.png);
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: petcolor 1s steps(9) infinite;
+}
+@keyframes petcolor {
+    to{
+         background-position: -900px;
+    }
+}
+.petmirror {
+    background-image: url(img/petmirror.png);
+    height: 100px;
+    width: 140px;
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: petmirror 1s steps(11) infinite;
+}
+@keyframes petmirror {
+    to{
+         background-position: -1600px;
+    }
+}
+
+.petrotate {
+    background-image: url(img/petrotate.png);
+    height: 100px; //*változtatnikell*//
+    width: 100px; //*változtatnikell*//
+    margin:auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: petrotate 1s steps(10) infinite;
+}
+@keyframes petrotate {
+    to{
+         background-position: -1021px;
+    }
+    }
